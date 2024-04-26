@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Links </title>
+  <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .technology {
+            text-align: center;
+            margin-bottom: 20px;
+
+        }
+        .technology img{
+            max-width: 500px;
+            height: auto;
+            display: block;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+        }
+        .technology image:hover img {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 400px; /* Set the width of the image */
+            height: 300px;
+            display: block;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+        .gallery a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .gallery a:hover img {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+      
+        .menu {
+            text-align: center;
+        }
+
+        .food-item {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .food-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .food-item img {
+            display: block;
+            margin: 0 auto;
+            width: 400px; /* Set the width of the image */
+            height: 500px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .food-item a:hover img {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+       
+    </style>
+
+</head>
+<body>
+  <h1>Welcome to Our Page!</h1>
+  <p>We're excited to show you some interesting things.</p>
+  <h2>Technology</h2>
+  <div class="technology">
+
+    <a href="https://bernardmarr.com/the-10-biggest-technology-trends-that-will-transform-the-next-decade/">  
+        <img src="tech_image.jpg" alt="Technology Image"> 
+    </a>
+
+</div>
+  
+  
+<h2>Gallery</h2>
+<p>Explore the beauty of nature!</p>
+        <div class="gallery">
+        <a href="https://pixabay.com/photos/photo-waterfall-forest-rocks-moss-8434386/">
+            <img src="nature_image1.jpg" alt="Nature Image 1">
+        </a>
+        <a href="https://www.allright.org.nz/articles/connect-with-nature">
+            <img src="nature_image2.jpg" alt="Nature Image 2">
+        </a>
+        <a href="https://www.nature.org/en-us/what-we-do/our-insights/perspectives/9-reasons-to-be-hopeful-for-our-planet/">
+            <img src="nature_image3.jpg" alt="Nature Image 3">
+        </a>
+        
+    
+   </div>
+    <h2>Delicious Menu</h2>
+    <p>Check out our delicious food items!</p>
+    
+    <div class="menu">
+        <div class="food-item">
+            <a href="https://cookidoo.international/recipes/recipe/en/r754564">
+                <img src="pizza.jpg" alt="Pizza">
+                <p>Pizza</p>
+            </a>
+        </div>
+        <div class="food-item">
+            <a href="https://www.saltandlavender.com/tomato-goat-cheese-pasta/">
+                <img src="pasta.jpg" alt="Pasta">
+                <p>Pasta</p>
+            </a>
+        </div>
+        <div class="food-item">
+            <a href="https://www.saltandlavender.com/tomato-goat-cheese-pasta/">
+                <img src="cake.jpg" alt="Cake">
+                <p>Cake</p>
+            </a>
+        </div>
+        <!-- Add more food items as needed -->
+    </div>
+
+  </div>
+</body>
+</html>
